@@ -2,7 +2,7 @@
   # Estudos com react e banco de dados
 </p>
 
-<h2 align="center">HTML/CSS</h2>
+<h2 align="center">Estudos React/BD</h2>
 <div align="center">
 
 [![Status](https://img.shields.io/badge/Status-Active-yellow/?style=flat-square&color=Green)](https://github.com/gersonmachado/site-react)
