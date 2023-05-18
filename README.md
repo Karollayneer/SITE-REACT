@@ -22,5 +22,5 @@
 
 ## ☕ Colaboradores
 
-- [Karol](#)
+- [Karol](https://github.com/Karollayneer)
 - [Pablo](https://github.com/pabloedutech)
