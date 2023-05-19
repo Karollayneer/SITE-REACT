@@ -99,4 +99,8 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  /* fixar no final da página */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }

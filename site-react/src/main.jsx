@@ -4,11 +4,14 @@ import App from './App.jsx'
 import './index.css'
 
 // configurando router
+// Importando bibliotecas? 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+// Para definir e carregar as rotas, antes devem ser importadas aqui
 import Home from './routes/Home.jsx'
 import Contato from './routes/Contato.jsx'
 import ErrorPage from './routes/ErrorPage.jsx'
+
 
 // const router = createBrowserRouter([
 //   {
@@ -21,6 +24,8 @@ import ErrorPage from './routes/ErrorPage.jsx'
 //   }
 // ]);
 
+
+// Definição da url das rotas a serem carregadas
 const router = createBrowserRouter([
   {
     path: '/',
@@ -39,6 +44,7 @@ const router = createBrowserRouter([
   },
 ]);
 
+// ??
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
