@@ -1,11 +1,10 @@
-// import { Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Menu() {
 
     return(
-        <main>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
             <a class="navbar-brand" href="#">JOb Finder</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -13,18 +12,18 @@ function Menu() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="/">Home</a>
+                <Link to="/">Home</Link>
                 </li><li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                <Link to="#">Link</Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                <Link to="#">Link</Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                <Link to="#">Link</Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Contato">Contact</a>
+                <Link to="/Contato">Contato</Link>
                 </li>
               </ul>
   
@@ -33,9 +32,8 @@ function Menu() {
                 <button class="btn1 mx-2">Login</button>
               </form>
             </div>
-        </div>
-    </nav>
-        </main>
+            </div>
+        </nav>
     )
 
 }
