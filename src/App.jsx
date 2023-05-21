@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom'
 
 // importando os componentes
 import Menu from './components/Menu'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       <Menu />
       <Outlet />
-      <p>footer</p>
+      <Footer />
     </div>
   )
 }
