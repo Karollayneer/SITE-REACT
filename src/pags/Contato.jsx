@@ -6,9 +6,9 @@ import "./Contato.css";
 const Contato = () => {
   return (
 
-    <div>
+    <main>
       <h1>Contatos</h1>
-    </div>
+    </main>
 
   );
 };

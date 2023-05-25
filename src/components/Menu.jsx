@@ -7,7 +7,7 @@ function Menu() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="linkativo">Home</Link>
         </li>
         <li>
           <Link to="/contato">Contato</Link>

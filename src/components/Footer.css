@@ -1,17 +1,29 @@
 .Footer {
-    background-color: #646464;
+    background-color:#bb7030;
     color: white;
     padding: 2px;
-
+    padding-bottom: 20px;
+    padding-top: 1%;
 }
 .footerLinks{
     display: flex;
 }
 
 .footerLinks ul{
-    display: grid;
-    align-items: center;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinks ul li{
+    margin: 4px 0;
+}
+
+.footerLinks ul li a{
+    color: white;
+}
+
+.footerLinks ul li a:hover{
+    color: rgb(46, 46, 46);
 }
 .copy {
     text-align: center;
@@ -29,3 +41,4 @@ footer a{
 footer p{
     font-weight: 600;
 }
+

@@ -1,14 +1,27 @@
 /* Home.css */
+main {
+  background-image: url("https://img.freepik.com/premium-photo/light-scratched-concrete-wall-texture-with-coffee-beans-corner_124507-10556.jpg?w=2000");
+  background-size: 100%;  
+  background-position: bottom;
+  background-blend-mode: multiply;
+  background-color: rgb(50,50,50);
+}
+
+main .image-container {
+  width: 100%; /* Ajuste a largura conforme necessário */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+}
 
 .image-container {
     position: relative;
   }
   
   .text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    /* position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
     text-align: center;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
@@ -25,15 +38,12 @@
   }
 /* Home.css */
 
-.image {
-  width: 100%; /* Ajuste a largura conforme necessário */
-  height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
-}
+
 .btn-cadastro {
-  position: absolute;
+  /* position: absolute;
   top: 10%;
-  left: 10%;
-  transform: translate(-50%, -50%);
+  left: 10%; */
+  /* transform: translate(-50%, -50%); */
   padding: 10px 20px;
   background-color: #ff9900;
   color: #fff;
@@ -42,8 +52,30 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+.btn-cadastro:hover { 
+  color: rgb(255, 255, 255);
+  background-color: #c57b0b;
+
+}
+
 .bem {
-  position: absolute;
-  top: 20%;
-  left: 20%;
+  color: white;
+  font-size: 2.5rem;
+  transition: 2s;
+  /* position: absolute; */
+  /* top: 20%;
+  left: 20%; */
+}
+
+.bem:hover{
+  letter-spacing: 1px;
+  transition: 2s;
+}
+
+.conteudo{
+  padding:12%;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }

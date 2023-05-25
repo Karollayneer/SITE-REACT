@@ -6,14 +6,17 @@ import cafeImage from "../imags/cafe.avif";
 const Home = () => {
   return (
 
-    <div className="image-container">
-     <img src={cafeImage} alt="" className="image" />
+    <main className="image-container">
+     {/* <img src={cafeImage} alt="" className="image" /> */}
+
      <div className="tex-overlay">
-        <h1 className="bem">Bem vindo ao Devs Café</h1>
-        <button className="btn-cadastro">Cadastro</button>
+        <section className="conteudo">
+          <h1 className="bem">Bem-vindo ao Dev's Café!</h1>
+          <div><button className="btn-cadastro">Cadastro</button></div>
+        </section>
      </div>
     
-    </div>
+    </main>
 
   );
 };
