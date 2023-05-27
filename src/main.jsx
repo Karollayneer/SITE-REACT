@@ -11,6 +11,7 @@ import Contato from './pags/Contato.jsx'
 import ErrorPage from './pags/ErrorPage.jsx'
 import Sobre from './pags/Sobre.jsx'
 import Servicos from './pags/Servicos.jsx' 
+import Login from './pags/Login.jsx'
 
 //Definição de URL a ser carregada 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: 'servicos',
         element: <Servicos />
+      },
+      {
+        path: 'login',
+        element: <Login/>
       }
     ],
   },

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css"
 import { FaInstagram, FaFacebook } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return(
@@ -23,7 +23,8 @@ const Footer = () => {
                                 <a href="#">Últimas notícias</a>
                             </li>
                             <li>
-                                <a href="#">Sobre</a>
+                                <Link to="./pags/Sobre"> Sobre</Link>
+                               
                             </li>
                         </ul>
                     </div>
