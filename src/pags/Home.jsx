@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import cafeImage from "../imags/cafe.avif";
-import {Link} from "react-router-dom" 
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -16,13 +16,11 @@ const Home = () => {
             Bem-vindo ao Dev's Café!
           </h1>
           <div>
-           <Link to="./Login">
+            <Link to="./Login">
             <button className="btn-cadastro">
               Cadastro
             </button>
             </Link>
-          
-            
           </div>
         </section>
       </div>
