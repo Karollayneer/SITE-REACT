@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import cafeImage from "../imags/cafe.avif";
 import { Link } from "react-router-dom";
 
 
