@@ -1,14 +1,15 @@
 .contato-container {
     max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin:  auto;
+    padding: 30px;
+    border: 0,50px solid #fff;
+    border-radius: 10px;
     background-color: #f8f8f8;
   }
   
   .campo-formulario {
     margin-bottom: 10px;
+    margin: 7px;
   }
   
   label {
