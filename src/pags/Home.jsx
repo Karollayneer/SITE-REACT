@@ -20,6 +20,9 @@ const Home = () => {
               Cadastro
             </button>
             </Link>
+            <p className="tx">
+            Que tal experimentar as nossas deliciosas variedades de café para dar um upgrade no seu dia de trabalho? Afinal, nada melhor do que uma boa xícara de café para energizar nossas manhãs e tardes de trabalho.
+            </p>
           </div>
         </section>
       </div>

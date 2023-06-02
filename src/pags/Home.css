@@ -79,3 +79,11 @@ main .image-container {
   flex-direction: column;
   width: 40%;
 }
+.tx {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 20%;
+  left: 90%;
+}
