@@ -80,9 +80,9 @@ main .image-container {
   width: 40%;
 }
 .tx {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-  color: #fff;
+  color: white;
   position: relative;
   top: 20%;
   left: 90%;
